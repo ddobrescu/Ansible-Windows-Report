@@ -15,5 +15,5 @@
       ansible.builtin.include_role:
         name: shadowman.reports.build_report_windows
         apply:
-          delegate_to: localhost
+          delegate_to: student1-ansible-1
           run_once: true
