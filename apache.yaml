@@ -1,6 +1,6 @@
 ---
-- name: Instakk Aoache
-  hosts: all
+- name: Install Apache
+  hosts: localhost
   tasks:
 
     - name: install apache
